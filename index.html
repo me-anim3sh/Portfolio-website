@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
@@ -55,7 +56,7 @@
 
     <!-- about section start -->
     <section class="about" id="about">
-        <div class="max-width">
+        <div class="max-width" data-aos="zoom-in">
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
@@ -103,46 +104,46 @@
 
     <!-- skills section start -->
     <section class="skills" id="skills">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="max-width">
                 <h2 class="title">My skills</h2>
                 <div class="skills-content">
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-right">
                         <span class="Name">PYTHON</span>
                         <div class="percent">
                             <div class="progress" style="width: 75%;"></div>
                         </div>
                         <span class="Value">75%%</span>
                     </div>
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-left" data-aos-delay="50">
                         <span class="Name">LINUX</span>
                         <div class="percent">
                             <div class="progress" style="width: 50%;"></div>
                         </div>
                         <span class="Value">50%</span>
                     </div>
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-right">
                         <span class="Name">JAVA</span>
                         <div class="percent">
                             <div class="progress" style="width: 75%;"></div>
                         </div>
                         <span class="Value">75%</span>
                     </div>
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-left" data-aos-delay="50">
                         <span class="Name">C LANG</span>
                         <div class="percent">
                             <div class="progress" style="width: 80%;"></div>
                         </div>
                         <span class="Value">80%</span>
                     </div>
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-right">
                         <span class="Name">HTML & CSS</span>
                         <div class="percent">
                             <div class="progress" style="width: 70%;"></div>
                         </div>
                         <span class="Value">70%</span>
                     </div>
-                    <div class="skill">
+                    <div class="skill" data-aos="slide-left" data-aos-delay="50">
                         <span class="Name">BASH & SCRIPT</span>
                         <div class="percent">
                             <div class="progress" style="width: 30%;"></div>
@@ -261,6 +262,13 @@
     <footer>
         <span>Created By ANIMESH SINGH</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>
