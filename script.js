@@ -6,6 +6,13 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        $(window).scroll(function() {
+            if(this.scrollY > 1700) {
+                $('.pro').addClass("progress");
+            }else {
+                $('.pro').removeClass("progress");
+            }
+        });
         
         // scroll-up button show/hide script
         if(this.scrollY > 500){

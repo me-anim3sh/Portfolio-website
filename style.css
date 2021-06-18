@@ -466,22 +466,22 @@ section .title::after{
     }
 } 
 .container .skill:nth-child(1) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 .container .skill:nth-child(2) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 .container .skill:nth-child(3) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 .container .skill:nth-child(4) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 .container .skill:nth-child(5) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 .container .skill:nth-child(6) .percent .progress {
-    background: linear-gradient(45deg, #ED3F3E, #C9000B );
+    background: linear-gradient(45deg, white, crimson );
 }
 
 
