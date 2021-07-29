@@ -858,6 +858,8 @@ footer span a:hover{
 }
 .wrapper{
     place-items: center;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 .wrapper .button{
     display: inline-block;
