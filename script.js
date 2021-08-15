@@ -76,4 +76,9 @@ $(document).ready(function(){
             }
         }
     });
+    new kursor({
+        type: 1,
+        removeDefaultCursor: true,
+        color: "#dc143c"
+    });
 });
